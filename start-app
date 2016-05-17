@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/ubuntu/workspace/forum
+rails s -b $IP -p $PORT
