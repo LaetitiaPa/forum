@@ -38,11 +38,13 @@
   background: #fafafa;
   #logo {
     float: left;
-    p {
+    a {
       text-transform: uppercase;
       font-weight: 900;
       letter-spacing: 1px;
       font-size: 1.2rem;
+      text-decoration: none;
+      color: #397CAC;
     }
   }
   #buttons {
@@ -51,6 +53,7 @@
       line-height: 60px;
       background: #397CAC;
       padding: .5em 1em;
+      margin-left: 2px;
       border-radius: 0.2em;
       color: white;
       text-decoration: none;
@@ -67,6 +70,7 @@
     margin: 1em 0;
     padding: 1em 0;
     border-bottom: 1px solid #bdbdbd;
+    
     .title {
       margin: 0;
       a {
